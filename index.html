@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/05190e590e.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <title>VIDMAR - a sua marmoraria</title>
+    
+</head>
+<body>
+<header>
+    <div class="container-fluid" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <a href="#" class="navbar-brand">
+                <img src="./img/logo.png" id="logo" alt="vidmar">
+            </a>
+            <button class="navbar-toggler toggler-adjust" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="header-contact">
+                <button id="contact-btn">Link direto Whatsapp</button>
+                <p><i class="fa-brands fa-whatsapp"></i>  (11)98953-5288 / (11)98475-2473</p>
+                <p><i class="fa-solid fa-envelope"></i> vidmarserv@outlook.com</p>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link" id="home-menu">Home</a>
+                    <a href="#" class="nav-item nav-link" id="about-menu">A empresa</a>
+                    <a href="#" class="nav-item nav-link" id="services-menu">Serviços</a>
+                    <a href="#" class="nav-item nav-link" id="product-menu">Materiais</a>
+                    <a href="#" class="nav-item nav-link" id="projects-menu">Projetos</a>
+                    <a href="#" class="nav-item nav-link" id="contact-menu">Contato</a>
+                    <a href="#" class="nav-item nav-link" id="local-menu">Localização</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="container-fluid" id="carousel-container">
+        <div id="mainSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#mainSlider" data-slide-to="1"></li>
+                <li data-target="#mainSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/dekton.jpg" class="d-block w-100" alt="ilha e pia em granito pitaya">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Quer modernizar a sua cozinha?</h2>
+                        <p>Temos grande variedade em materiais, desde dektons, quartzos, granitos e marmores, a única limitação é a sua imaginação.</p>
+                        <button href="#" class="main-btn">Ver materiais</button>
+                    </div>
+                    
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/ilha-bco-cayowaa-2.jpg" class="d-block w-100" alt="pia e bancada quartzo branco">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Trabalhamos com qualidade e preço justo.</h2>
+                        <p>Nós da VIDMAR estamos desde 2015 no mercado, sempre com qualidade em atendimento, contando com orçamentos e visitas sem compromisso.</p>
+                        <button href="#" class="main-btn">Entre em contato</button>
+                    </div>
+                    
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/lavatorio-duplo-branco.jpg" class="d-block w-100 center"  alt="ambiente cozinha em dekton calacata">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Orçamentos e visitas sem compromisso.</h2>
+                        <p>Se você tem um projeto, um desenho, ou apenas uma ideia de medidas e materiais, entre em contato para um pré-orçamento.</p>
+                        <button href="#" class="main-btn">Consultar</button>
+                    </div>  
+                </div>
+                
+            </div>
+            <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            
+            
+            
+        </div>
+        <!-- Sobre a empresa -->
+        <div id="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Sobre a VIDMAR</h3>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./img/logo-about.png" class="about-img" alt="logo vidmar">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 id="about-title">Uma marmoraria que pensa no cliente</h3>
+                        <p class="about-text">Nossos projetos são feitos de acordo com a necessidade do cliente, e a praticidade no dia a dia.</p>
+                        <p class="about-text">Após entendermos o que o cliente deseja, definimos um pré-orçamento e dependendo do caso, uma visita ao local para melhor precisão do projeto.</p>
+                        <p class="about-text">Nossos funcionários sempre estão aptos a ouvir o cliente e tirar dúvidas recorrentes em relação a acabamentos, materiais, prazos e etc.</p>
+                        <p class="about-text">Veja outros de nossos diferenciais:</p>
+                        <ul id="about-list">
+                            <li>
+                                <i class="fa-regular fa-check"></i>
+                                Utilização de materias e insumos de qualidade.
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-check"></i>
+                                Acabamentos em 45°, mas nos adaptamos de acordo com o cliente.
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-check"></i>
+                                Preço justo, com qualidade.
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-check"></i>
+                                Atendemos toda a grande SP.
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-check"></i>
+                                Sempre em contato com o cliente diante de qualquer imprevisto.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="call-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <p>Deseja fazer um orçamento sem compromisso</p>
+                    <button class="main-btn" id="call-btn">Orçar</button>
+                </div>
+            </div>
+        </div>
+        <!-- Serviços da empresa-->
+        <div id="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Nossas especialidades</h3>
+                    </div>
+                    <div class="col-4 service-box">
+                        <i class="fa-solid fa-ruler"></i>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <h4>Mediçoes e Croquis</h4>
+                        <p>Sempre atentos nas visitas para medições, e também sempre fazemos um croqui e apresentamos para o cliente confirmar se é realmente o projeto que deseja.</p>
+                    </div>
+                    <div class="col-4 service-box">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <h4>Prazo justo</h4>
+                        <p>Contamos com um dos melhores prazos de entrega do mercado, após medição, se o negócio for fechado, nós ja encomendamos o material(se necessário) e damos sequência na fila de produção.</p>
+                    </div>
+                    <div class="col-4 service-box">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <h4>Preços acessíveis</h4>
+                        <p>Fazemos noossos orçamentos de forma justa, considerando desde o m², até localização e acesso, mas sempre com honestidade e preço abaixo da grande maioria do mercado.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="trust-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./img/logo-sem-fundo.png" class="img-fluid">
+                    </div>
+                    <div class="col-8 align-self-center">
+                        <h4 class="trust-title">Confie seu projeto à quem <span class="vidmar">entende!</span></h4>
+                        <p class="trust-text">Nós da <span class="vidmar">VIDMAR</span> atuamos no mercado a mais de 7 anos e temos como principal objetivo a satisfação do cliente.</p>
+                        <p class="trust-text">Não confie seu projeto à quem não tem experiência no assunto!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="product-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Nossos Produtos</h3>
+                    </div>
+                    <div class="col-md-3">
+                       <div class="card">
+                            <img src="./img/granito-psg.jpg" class="card-img-top" alt="imagem de granito">
+                            <div class="card-body">
+                                <h5 class="card-title">GRANITOS</h5>
+                                <p class="card-text">O granito é um tipo de rocha comum e natural e com boa resistência, sendo uma opção mais barata para o seu projeto, porém mais limitada em opções de cores.</p>
+                            </div>
+                       </div> 
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="./img/marmore-calacata.jpg" class="card-img-top" alt="imagem de marmore">
+                            <div class="card-body">
+                                <h5 class="card-title">MÁRMORES</h5>
+                                <p class="card-text">O mármore é uma rocha originada do calcário, possui menos resistência comparado a outros materiais, porém existem varias opções de cores disponíveis, por isso é um material mais caro que o granito.</p>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="./img/quartzo-vermelho.jpg" class="card-img-top" alt="imagem de granito">
+                            <div class="card-body">
+                                <h5 class="card-title">QUARTZOS</h5>
+                                <p class="card-text">O quartzo é um material industrializado à base de quartzito, por ser artificial as possibilidades de cores são ilimitadas, ele é mais resitente que as rochas naturais, sendo assim mais caro.</p>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="./img/dekton-preto.jpg" class="card-img-top" alt="imagem de granito">
+                            <div class="card-body">
+                                <h5 class="card-title">DEKTONS</h5>
+                                <p class="card-text">O dekton também é um material industrializado composto por porcelana, vidro e até quartzo, é um material com ótima resistência, tendo uma gama infinita de cores, é um material top de linha, mais caro que os demais.</p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="portfolio-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Conheça nossos serviços</h3>
+                    </div>
+                    <div class="col-md-12" id="filter-btn-box">
+                        <button class="main-btn active filter-btn " id="all-btn">Todos</button>
+                        <button class="main-btn filter-btn" id="pias-btn">Pias</button>
+                        <button class="main-btn filter-btn" id="ilhas-btn">Ilhas</button>
+                        <button class="main-btn filter-btn" id="lavatorios-btn">Lavatórios</button>
+                        <button class="main-btn filter-btn" id="lavanderias-btn">Lavanderias</button>
+                    </div>
+                    <div class="col-md-4 project-box pias">
+                        <img src="./img/pia-bco-estellar.jpg" class="img-fluid service-img" alt="pia branco estellar">
+                    </div>
+                    <div class="col-md-4 project-box pias">
+                        <img src="./img/pia-preto.jpeg" class="img-fluid service-img" alt="pia preto">
+                    </div>
+                    <div class="col-md-4 project-box pias">
+                        <img src="./img/pia-pitaya.jpg" class="img-fluid service-img" alt="pia pitaya">
+                    </div>
+                    <div class="col-md-4 project-box pias">
+                        <img src="./img/pia-psg-L.jpg" class="img-fluid service-img" alt="pia preto sao gabriel l">
+                    </div>
+                    <div class="col-md-4 project-box pias">
+                        <img src="./img/pia-quartzo-bco.jpg" class="img-fluid service-img" alt="pia quartzo branco">
+                    </div>
+                    <div class="col-md-4 project-box pias">
+                        <img src="./img/pia-churrasqueira-bco.jpg" class="img-fluid service-img" alt="pia churrasqueira branco">
+                    </div>
+                    <div class="col-md-4 project-box pias">
+                        <img src="./img/cozinha-cayowaa (2).jpg" class="img-fluid service-img" alt="pia cayowaa">
+                    </div>
+                    <div class="col-md-4 project-box pias">
+                        <img src="./img/cozinha-cayowaa.jpg" class="img-fluid service-img" alt="pia santo amaro">
+                    </div>
+                    <div class="col-md-4 project-box lavatorios">
+                        <img src="./img/lavatorio-bco-estellar.jpg" class="img-fluid service-img" alt="lavatorio branco estellar">
+                    </div>
+                    <div class="col-md-4 project-box lavatorios">
+                        <img src="./img/lavatorio-branco-saia-detalhe.jpg" class="img-fluid service-img" alt="lavatorio sobrepor saia detalhe">
+                    </div>
+                    <div class="col-md-4 project-box lavatorios">
+                        <img src="./img/lavatorio-branco.jpg" class="img-fluid service-img" alt="lavatorio branco">
+                    </div>
+                    <div class="col-md-4 project-box lavatorios">
+                        <img src="./img/lavatorio-carrara-cayowaa.jpg" class="img-fluid service-img" alt="lavatorio carrara">
+                    </div>
+                    <div class="col-md-4 project-box lavatorios">
+                        <img src="./img/lavatorio-cinza-cayowaa.jpg" class="img-fluid service-img" alt="lavatorio cinza sobrepor">
+                    </div>
+                    <div class="col-md-4 project-box lavatorios">
+                        <img src="./img/lavatorio-branco-cayowaa.jpg" class="img-fluid service-img" alt="lavatorio branco sobrepor">
+                    </div>
+                    <div class="col-md-4 project-box lavatorios">
+                        <img src="./img/lavatorio-cinza-perdizes.jpg" class="img-fluid service-img" alt="lavatorio cinza porcelanato">
+                    </div>
+                    <div class="col-md-4 project-box lavatorios">
+                        <img src="./img/lavatorio-cinza-rampa.jpg" class="img-fluid service-img" alt="lavatorio cinza com rampa">
+                    </div>
+                    <div class="col-md-4 project-box lavatorios">
+                        <img src="./img/lavatorio-duplo-branco.jpg" class="img-fluid service-img" alt="lavatorio cuba dupla branco">
+                    </div>
+                    <div class="col-md-4 project-box lavatorios">
+                        <img src="./img/lavatorio-escovado.jpg" class="img-fluid service-img" alt="lavatorio itaunas escovado">
+                    </div>
+                    <div class="col-md-4 project-box lavatorios">
+                        <img src="./img/lavatorio-travertino.jpeg" class="img-fluid service-img" alt="lavatorio travertino">
+                    </div>
+                    <div class="col-md-4 project-box lavanderias">
+                        <img src="./img/lavanderia-cayowaa.jpg" class="img-fluid service-img" alt="lavanderia branco">
+                    </div>
+                    <div class="col-md-4 project-box lavanderias">
+                        <img src="./img/lavanderia-cayowaa2.jpg" class="img-fluid service-img" alt="lavanderia itaunas">
+                    </div>
+                    <div class="col-md-4 project-box lavanderias">
+                        <img src="./img/lavanderia-preto.jpeg" class="img-fluid service-img" alt="lavanderia preto">
+                    </div>
+                    <div class="col-md-4 project-box ilhas">
+                        <img src="./img/ilha-bco-cayowaa-2.jpg" class="img-fluid service-img" alt="ilha branco">
+                    </div>
+                    <div class="col-md-4 project-box ilhas">
+                        <img src="./img/ilha-bco-cayowaa.jpg" class="img-fluid service-img" alt="ilha branco">
+                    </div>
+                    <div class="col-md-4 project-box ilhas">
+                        <img src="./img/ilha-cayowaa.jpg" class="img-fluid service-img" alt="ilha cayowaa">
+                    </div>
+                    <div class="col-md-4 project-box ilhas">
+                        <img src="./img/ilha-churrasqueira.jpg" class="img-fluid service-img" alt="ilha preto">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="contact-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="main-title">Entre em contato conosco</h3>
+                        </div>
+                        <div class="col-md-4 contact-box">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <p><span class="contact-span">Whatsapp:</span>(11)98953-5288 / (11)98475-2473</p>
+                        </div>
+                        <div class="col-md-4 contact-box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p><span class="contact-span">E-mail:</span>vidmarserv@outlook.com</p>
+                        </div>
+                        <div class="col-md-4 contact-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <p><span class="contact-span">Telefone:</span> (11) 98953-5288 / (11) 98475-2473 / (11) 2311-3482</p>
+                            <p><span class="contact-span">Horário:</span> Segunda à Sexta | 8:30 - 17:30</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="local-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="main-title" >Onde estamos</h3>
+                        </div>
+                        <div class="col-md-6 local-box" >
+                            <h6>Endereço:</h6>
+                            <p>Rua Pedro José Lorenzini, 85</p>
+                            <p>São Caetano do Sul, SP</p>
+                            <span>09530-130</span>
+                        </div>
+                        <div class="col-md-6 map-box">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.675843877705!2d-46.575771!3d-23.6159557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c92e29f44c9%3A0xf35b3fc33b96c36a!2sR.%20Pedro%20Jos%C3%A9%20Lorenzini%2C%2085%20-%20Centro%2C%20S%C3%A3o%20Caetano%20do%20Sul%20-%20SP%2C%2009530-130!5e0!3m2!1spt-BR!2sbr!4v1665511420050!5m2!1spt-BR!2sbr" width="500" height="307" style="border: 1px solid #d19217;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>    
+    </div>
+</main>
+<script src="./js/scripts.js" defer></script>    
+</body>
+</html>
